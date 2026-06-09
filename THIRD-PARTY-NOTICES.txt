@@ -1,0 +1,46 @@
+Third-party material folded into this bundle
+=============================================
+
+The following files were incorporated from two separate MIT-licensed
+TextMate bundles by Stefan Daschek, to add YAML front-matter and MathJax
+support directly to this Markdown bundle. Shebangs were changed from
+`ruby18`/`ruby20` to the system `ruby` to suit this fork's toolchain;
+the logic is otherwise unmodified.
+
+From noniq/Markdown-Front-Matter.tmbundle
+(https://github.com/noniq/Markdown-Front-Matter.tmbundle):
+  - Syntaxes/Markdown (Front Matter).tmLanguage
+  - Preferences/Markdown Filter.tmPreferences
+  - Support/strip_front_matter
+
+From noniq/Markdown-MathJax.tmbundle
+(https://github.com/noniq/Markdown-MathJax.tmbundle):
+  - Preferences/TM_MARKDOWN_FILTER_POST.tmPreferences
+  - Support/append_mathjax_js
+
+Both bundles carry the following license:
+
+----------------------------------------------------------------------
+The MIT License (MIT)
+
+Copyright (c) 2016 Stefan Daschek
+
+Permission is hereby granted, free of charge, to any person obtaining a
+copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be included
+in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+----------------------------------------------------------------------

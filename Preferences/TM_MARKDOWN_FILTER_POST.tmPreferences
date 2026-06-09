@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>TM_MARKDOWN_POST_FILTER</string>
+	<key>settings</key>
+	<dict>
+		<key>shellVariables</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>TM_MARKDOWN_POST_FILTER</string>
+				<key>value</key>
+				<string>'${TM_BUNDLE_SUPPORT/'/'\''/g}/append_mathjax_js':$TM_MARKDOWN_POST_FILTER</string>
+			</dict>
+		</array>
+	</dict>
+	<key>uuid</key>
+	<string>4A089215-4B51-4EB0-AAD3-183F66DFF078</string>
+</dict>
+</plist>

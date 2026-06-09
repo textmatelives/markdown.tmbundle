@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Markdown Filter</string>
+	<key>settings</key>
+	<dict>
+		<key>shellVariables</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>TM_MARKDOWN_PRE_FILTER</string>
+				<key>value</key>
+				<string>"$TM_BUNDLE_SUPPORT/strip_front_matter":$TM_MARKDOWN_PRE_FILTER</string>
+			</dict>
+		</array>
+	</dict>
+	<key>uuid</key>
+	<string>B56FDBFE-E796-4848-A08F-1C270BF2F73C</string>
+</dict>
+</plist>
