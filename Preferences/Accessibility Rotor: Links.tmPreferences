@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Accessibility Rotor: Links</string>
+	<key>scope</key>
+	<string>text.html.markdown meta.link.inline, text.html.markdown meta.link.reference - meta.link.reference.def, text.html.markdown meta.link.inet, text.html.markdown meta.link.email</string>
+	<key>settings</key>
+	<dict>
+		<key>accessibilityRotor</key>
+		<string>link</string>
+		<key>accessibilityRotorExtent</key>
+		<string>run</string>
+		<key>accessibilityRotorOrder</key>
+		<integer>20</integer>
+		<key>accessibilityRotorTransformation</key>
+		<string>s/^\[(.*?)\]\s*[\(\[].*$/$1/;
+s/^&lt;(.*)&gt;$/$1/;</string>
+	</dict>
+	<key>uuid</key>
+	<string>F7C6368D-C189-5B9F-A51B-9070C945764C</string>
+</dict>
+</plist>

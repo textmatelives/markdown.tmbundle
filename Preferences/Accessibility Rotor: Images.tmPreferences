@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Accessibility Rotor: Images</string>
+	<key>scope</key>
+	<string>text.html.markdown meta.image.inline, text.html.markdown meta.image.reference</string>
+	<key>settings</key>
+	<dict>
+		<key>accessibilityRotor</key>
+		<string>image</string>
+		<key>accessibilityRotorExtent</key>
+		<string>run</string>
+		<key>accessibilityRotorOrder</key>
+		<integer>60</integer>
+		<key>accessibilityRotorTransformation</key>
+		<string>s/^!\[(.*?)\].*$/$1/;</string>
+	</dict>
+	<key>uuid</key>
+	<string>C03EEA5D-E813-5A2B-8AC8-1AC4F5E9CD62</string>
+</dict>
+</plist>

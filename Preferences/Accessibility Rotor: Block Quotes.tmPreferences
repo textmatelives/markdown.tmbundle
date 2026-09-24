@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Accessibility Rotor: Block Quotes</string>
+	<key>scope</key>
+	<string>text.html.markdown markup.quote</string>
+	<key>settings</key>
+	<dict>
+		<key>accessibilityRotor</key>
+		<dict>
+			<key>en</key>
+			<string>Block Quotes</string>
+			<key>zh-Hans</key>
+			<string>引用</string>
+		</dict>
+		<key>accessibilityRotorExtent</key>
+		<string>block</string>
+		<key>accessibilityRotorOrder</key>
+		<integer>45</integer>
+		<key>accessibilityRotorTransformation</key>
+		<string>s/^[\s&gt;]+//;</string>
+	</dict>
+	<key>uuid</key>
+	<string>3D5E3C6B-666C-558A-B0C9-D0E6041D5FC9</string>
+</dict>
+</plist>

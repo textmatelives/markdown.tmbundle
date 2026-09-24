@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Accessibility Link: Inline</string>
+	<key>scope</key>
+	<string>text.html.markdown meta.link.inline</string>
+	<key>settings</key>
+	<dict>
+		<key>accessibilityLink</key>
+		<true/>
+		<key>accessibilityLinkTitleTransformation</key>
+		<string>s/^\[(.*?)\]\(.*$/$1/;</string>
+		<key>accessibilityLinkURLTransformation</key>
+		<string>s/^\[.*?\]\(\s*&lt;?([^\s&gt;)]+).*$/$1/;</string>
+	</dict>
+	<key>uuid</key>
+	<string>ADBBDCB5-34AC-52E0-BD58-FA8618FED358</string>
+</dict>
+</plist>

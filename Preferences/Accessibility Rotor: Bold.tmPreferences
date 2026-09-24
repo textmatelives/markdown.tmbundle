@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Accessibility Rotor: Bold</string>
+	<key>scope</key>
+	<string>text.html.markdown markup.bold</string>
+	<key>settings</key>
+	<dict>
+		<key>accessibilityRotor</key>
+		<string>bold</string>
+		<key>accessibilityRotorExtent</key>
+		<string>run</string>
+		<key>accessibilityRotorOrder</key>
+		<integer>70</integer>
+		<key>accessibilityRotorTransformation</key>
+		<string>s/^(\*\*|__)|(\*\*|__)$//g;</string>
+	</dict>
+	<key>uuid</key>
+	<string>B8C21A47-CC8B-5A9D-ACE9-28DCD1308646</string>
+</dict>
+</plist>

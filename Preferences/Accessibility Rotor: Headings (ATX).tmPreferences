@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Accessibility Rotor: Headings (ATX)</string>
+	<key>scope</key>
+	<string>text.html.markdown markup.heading - markup.heading.setext</string>
+	<key>settings</key>
+	<dict>
+		<key>accessibilityRotor</key>
+		<string>heading</string>
+		<key>accessibilityRotorExtent</key>
+		<string>line</string>
+		<key>accessibilityRotorOrder</key>
+		<integer>10</integer>
+		<key>accessibilityRotorTransformation</key>
+		<dict>
+			<key>en</key>
+			<string>s/^\s*#{6}\s*/H6 /;
+s/^\s*#{5}\s*/H5 /;
+s/^\s*#{4}\s*/H4 /;
+s/^\s*#{3}\s*/H3 /;
+s/^\s*#{2}\s*/H2 /;
+s/^\s*#\s*/H1 /;
+s/\s+#+\s*$//;</string>
+			<key>zh-Hans</key>
+			<string>s/^\s*#{6}\s*/6级 /;
+s/^\s*#{5}\s*/5级 /;
+s/^\s*#{4}\s*/4级 /;
+s/^\s*#{3}\s*/3级 /;
+s/^\s*#{2}\s*/2级 /;
+s/^\s*#\s*/1级 /;
+s/\s+#+\s*$//;</string>
+		</dict>
+	</dict>
+	<key>uuid</key>
+	<string>8DD45DE3-1D29-57AB-8F3A-FE641E016657</string>
+</dict>
+</plist>
