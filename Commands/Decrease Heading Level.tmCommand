@@ -5,25 +5,17 @@
 	<key>beforeRunningCommand</key>
 	<string>nop</string>
 	<key>command</key>
-	<string>#!/usr/bin/env python
+	<string>#!/usr/bin/env ruby
 
-import os
-import sys
-import re
-
-hashes = ''
-line = os.environ['TM_CURRENT_LINE']
-m = re.match(r'(#{2,6})\s*(.+?)\s*(#*)$', line)
-
-if m:
-    hashes = m.group(1)
-    hashes = '#' * (len(hashes) - 1)
-    heading = m.group(2).strip()
-    sys.stdout.write('%s %s' % (hashes, heading))
-    if m.group(3) != '':
-        sys.stdout.write(' %s' % hashes)
-else:
-    sys.stdout.write(line)</string>
+line = ENV['TM_CURRENT_LINE'].dup.force_encoding(Encoding::UTF_8)
+m = line.match(/\A(\#{2,6})\s*(.+?)\s*(\#*)\z/)
+if m
+  hashes = '#' * (m[1].length - 1)
+  print "#{hashes} #{m[2].strip}"
+  print " #{hashes}" unless m[3].empty?
+else
+  print line
+end</string>
 	<key>fallbackInput</key>
 	<string>line</string>
 	<key>input</key>
